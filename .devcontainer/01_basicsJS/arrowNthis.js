@@ -25,3 +25,10 @@ console.log(addTwo(2,7));
 (()=>{                                                                   //SIMPLE IIFE
     console.log(`helper 2 has been called`);
 })();
+
+let v;
+v=null??1
+console.log(v);
+
+let a=69
+a>70?console.log("T"):console.log("F");
